@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f79670;
+}
+
+.building {
+  background-color: #edeff1;
+  margin: 20px;
+}
+
+.nav-section{
+display: flex;
+justify-content: space-between;
+list-style: none;
+padding: 10px;
+}
+
+.nav-item {
+  list-style: none;
+
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+button{
+    border-radius: 6px;
+    padding: 4px 4px;
+    background-color: black;
+    color: white;
+}
+
+.top-container{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 70px auto;
+
+    gap: 50px;
+    padding: 20px 50px;
+}
+
+.welcome-text{
+    padding-top: 50px;
+    color: #666
+}
+.welcome-text h1{
+    color: black;
+}
+
+.bottom-container{
+ display: flex;
+flex-direction: row;
+width: 80%;
+margin: 70px auto;
+padding-bottom: 50px;
+gap: 100px;
+}
+
+
+.about-me{
+    color: #666;
+}
+
+.list-items li{
+    list-style: none;
+    border: thin solid #dddddd;
+    padding: 8px 4px;
+    border-radius: 8px;
+    
+}
+
+.list-items{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
